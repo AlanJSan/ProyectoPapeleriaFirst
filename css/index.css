@@ -1,0 +1,55 @@
+#banner{
+    /*background-color: #9db2d3;*/
+    background-image: url(../resources/banner.jpg);
+    width: 100%;
+    height: auto;
+    background-size: cover;    
+    background-repeat: no-repeat;
+}
+
+#banner h1{
+    color: white;
+    margin: 15% 0 40% 0;
+    font-size: 8rem;
+    font-family: 'Lobster', cursive;
+}
+
+#login{
+    width: 50%;
+    background: linear-gradient(rgba(243, 217, 209, 0.425), #d5e2cc52);
+    padding-top: 10%;
+}
+
+body{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+form, h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    width: 6rem;
+    margin-left: 40%;
+}
+
+input{
+    border-radius: 100px;
+    padding: 10px;
+    border-style: groove;
+    border-color: black;
+    background-color: rgba(255, 255, 255, 0.808);
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type="submit"]{
+    background-color: rgb(255, 255, 255);
+}
+
+input[type="submit"]:hover{
+    background-color: rgba(105, 107, 99, 0.315);
+    cursor: pointer;
+}
